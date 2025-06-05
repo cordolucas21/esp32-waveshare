@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/CMakeFiles/bootloader
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/CMakeFiles/bootloader.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/CMakeFiles/bootloader-complete.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/CMakeFiles/bootloader
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/CMakeFiles/bootloader.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/CMakeFiles/bootloader-complete.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

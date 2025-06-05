@@ -1,30 +1,32 @@
-/*
- * SPDX-FileCopyrightText: 2023-2024 Espressif Systems (Shanghai) CO LTD
- *
- * SPDX-License-Identifier: CC0-1.0
- */
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_log.h"
 
 #include "waveshare_rgb_lcd_port.h"
 #include "ui.h"
+#include "tusb.h"
 
 
-
-
-void app_main()
+void app_main(void)
 {
-    
-    waveshare_esp32_s3_rgb_lcd_init(); // Initialize the Waveshare ESP32-S3 RGB LCD 
-    // wavesahre_rgb_lcd_bl_on();  //Turn on the screen backlight 
-    //Initialize touchscreen
-    // wavesahre_rgb_lcd_bl_off(); //Turn off the screen backlight 
-    
-    
-    ESP_LOGI(TAG, "Display LVGL demos");
-    // Lock the mutex due to the LVGL APIs are not thread-safe
-    if (lvgl_port_lock(-1)) {
-    //UI initiazation
-        ui_init();
+    ESP_LOGI(TAG, "Initializing Waveshare RGB LCD...");
+    waveshare_esp32_s3_rgb_lcd_init();
 
+    ESP_LOGI(TAG, "Initializing TinyUSB stack...");
+    tusb_init();
+
+    ESP_LOGI(TAG, "Initializing LVGL UI...");
+    // Lock lvgl port because LVGL APIs are not thread-safe
+    if (lvgl_port_lock(-1)) {
+        ui_init();
         lvgl_port_unlock();
+    }
+
+    ESP_LOGI(TAG, "Setup complete, entering main loop...");
+
+    // Your main loop, if needed (or let FreeRTOS run)
+    while (1) {
+        vTaskDelay(pdMS_TO_TICKS(1000)); // Idle delay
     }
 }

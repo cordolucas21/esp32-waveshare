@@ -2,15 +2,43 @@ dependencies:
   espressif/esp_lcd_touch:
     dependencies: []
     source:
-      path: C:\Users\dekar\Downloads\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP-IDF\08_lvgl_Porting\components\espressif__esp_lcd_touch
+      path: C:\Users\Lucas Cordova\Desktop\waveshare\esp32-waveshare\components\espressif__esp_lcd_touch
       type: local
     version: 1.1.2
   espressif/esp_lcd_touch_gt911:
     dependencies: []
     source:
-      path: C:\Users\dekar\Downloads\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP-IDF\08_lvgl_Porting\components\espressif__esp_lcd_touch_gt911
+      path: C:\Users\Lucas Cordova\Desktop\waveshare\esp32-waveshare\components\espressif__esp_lcd_touch_gt911
       type: local
     version: 1.1.1~1
+  espressif/esp_tinyusb:
+    component_hash: 3797c7ed162733dac1fd7c6cf267d648ebc49647bdcd2372d9bd25da99b444e5
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    - name: espressif/tinyusb
+      registry_url: https://components.espressif.com
+      require: public
+      version: '>=0.14.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.7.4~1
+  espressif/tinyusb:
+    component_hash: 10703da2c3cd39a944711ee3d320c6dda54debabf13b4b933a7c90daf102372b
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32s2
+    - esp32s3
+    - esp32p4
+    version: 0.18.0~2
   idf:
     source:
       type: idf
@@ -18,14 +46,16 @@ dependencies:
   lvgl/lvgl:
     dependencies: []
     source:
-      path: C:\Users\dekar\Downloads\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP32-S3-Touch-LCD-4.3B-BOX-Demo\ESP-IDF\08_lvgl_Porting\components\lvgl__lvgl
+      path: C:\Users\Lucas Cordova\Desktop\waveshare\esp32-waveshare\components\lvgl__lvgl
       type: local
     version: 8.4.0
 direct_dependencies:
 - espressif/esp_lcd_touch
 - espressif/esp_lcd_touch_gt911
+- espressif/esp_tinyusb
+- espressif/tinyusb
 - idf
 - lvgl/lvgl
-manifest_hash: d5d266152de678f38563fb78535c96ea22d9ead88642e70bb4e988de7ac24ddd
+manifest_hash: 510e46478639e50e82d9456994f90218862464c29ea7a23c1e06e52691ea3b37
 target: esp32s3
 version: 2.0.0

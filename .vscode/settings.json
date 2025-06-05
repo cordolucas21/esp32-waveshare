@@ -8,6 +8,7 @@
     "idf.portWin": "COM3",
     "files.associations": {
         "esp_lcd_touch.h": "c",
-        "esp_lcd_touch_gt911.h": "c"
+        "esp_lcd_touch_gt911.h": "c",
+        "ui_events.h": "c"
     }
 }

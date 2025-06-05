@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dekar/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls
+# Install script for directory: C:/Users/Lucas Cordova/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/dekar/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

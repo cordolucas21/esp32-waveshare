@@ -1,2 +1,2 @@
-source C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader/gdbinit/symbols
-source C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader/gdbinit/connect
+source C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader/gdbinit/symbols
+source C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/bootloader/gdbinit/connect

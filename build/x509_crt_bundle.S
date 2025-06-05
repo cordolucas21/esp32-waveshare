@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/Lucas Cordova/Desktop/waveshare/esp32-waveshare/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)
